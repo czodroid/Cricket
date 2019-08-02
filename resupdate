@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# Filename: resupdate
+# Author: Olivier Sirol <czo@free.fr>
+# License: GPL-2.0
+# File Created: Sept 2012
+# Last Modified: vendredi 02 août 2019, 02:17
+# Edit Time: 1:00:28
+# Description:
+#
+# $Id:$
+#
+
+
+convert store/icon.png -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher.png
+convert store/icon.png -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher.png
+convert store/icon.png -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher.png
+convert store/icon.png -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+convert store/icon.png -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+
+convert store/icon.png -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+convert store/icon.png -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+convert store/icon.png -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+convert store/icon.png -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+convert store/icon.png -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+
