@@ -2,25 +2,26 @@
 #
 # Filename: resupdate
 # Author: Olivier Sirol <czo@free.fr>
-# License: GPL-2.0
+# License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: Sept 2012
-# Last Modified: vendredi 02 août 2019, 02:17
-# Edit Time: 1:00:28
+# Last Modified: lundi 18 avril 2022, 15:38
+# Edit Time: 1:02:31
 # Description:
 #
 # $Id:$
 #
 
+IMG=store/icon.png
+convert $IMG -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher.png
+convert $IMG -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher.png
+convert $IMG -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher.png
+convert $IMG -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+convert $IMG -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
 
-convert store/icon.png -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher.png
-convert store/icon.png -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher.png
-convert store/icon.png -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher.png
-convert store/icon.png -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
-convert store/icon.png -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
-
-convert store/icon.png -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher_round.png
-convert store/icon.png -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher_round.png
-convert store/icon.png -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
-convert store/icon.png -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
-convert store/icon.png -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+IMG=store/icon_round.png
+convert $IMG -geometry 48x48 app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+convert $IMG -geometry 72x72 app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+convert $IMG -geometry 96x96 app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+convert $IMG -geometry 144x144 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+convert $IMG -geometry 192x192 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
 
