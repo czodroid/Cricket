@@ -1,28 +1,35 @@
+// Filename: build.gradle
+// Author: Olivier Sirol <czo@free.fr>
+// License: GPL-2.0 (http://www.gnu.org/copyleft)
+// File Created: avril 2012
+// Last Modified: lundi 18 avril 2022, 13:28
+// Edit Time: 1:39:46
+// Description: app build.gradle
+
 apply plugin: 'com.android.application'
 
-// Create a variable called keystorePropertiesFile, and initialize it to your
+println("")
 // keystore.properties file, in the rootProject folder.
 def keystorePropertiesFile = rootProject.file("local.properties")
 def keystoreProperties = new Properties()
 def canSign = false
-if(keystorePropertiesFile.exists()) {
+if (keystorePropertiesFile.exists()) {
     canSign = true
-    println("The release flavor will signed in the folder app/build/outputs/apk/release/")
+    println("-> release will be signed")
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
     defaultConfig {
         applicationId "org.czo.cricket"
         minSdkVersion 9
-        targetSdkVersion 28
-        versionCode 3
-        versionName "1.1"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        targetSdkVersion 31
+        versionCode 4
+        versionName "1.4"
     }
 
-    if(canSign) {
+    if (canSign) {
         signingConfigs {
             release {
                 storeFile file(keystoreProperties['key.store'])
@@ -30,17 +37,16 @@ android {
                 keyAlias keystoreProperties['key.alias']
                 keyPassword keystoreProperties['key.alias.password']
                 v1SigningEnabled true
-                v2SigningEnabled false
+                v2SigningEnabled true
             }
         }
     }
-
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-             if(canSign) {
+             if (canSign) {
                 signingConfig signingConfigs.release
             }
         }
@@ -49,7 +55,4 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
