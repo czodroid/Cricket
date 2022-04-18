@@ -2,8 +2,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: lundi 18 avril 2022, 18:47
-// Edit Time: 1:50:05
+// Last Modified: lundi 18 avril 2022, 19:24
+// Edit Time: 1:50:35
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
@@ -30,8 +30,7 @@ android {
         versionCode minutesSinceEpoch
         versionName "1.42"
 
-        def appIdSmall = applicationId.toString().replaceAll(/.*\./,'')
-        setProperty("archivesBaseName", "${appIdSmall}-${buildDateYMD}")
+        setProperty("archivesBaseName", "${applicationId}-${buildDateYMD}")
         println("-> archivesBaseName: " + archivesBaseName)
         println("-> versionCode: " + minutesSinceEpoch)
         println("")

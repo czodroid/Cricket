@@ -1,9 +1,9 @@
 # Filename: Makefile
 # Author: Olivier Sirol <czo@free.fr>
-# License: GPL-2.0
+# License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: Jan 2012
-# Last Modified: vendredi 02 août 2019, 15:11
-# Edit Time: 2:53:03
+# Last Modified: lundi 18 avril 2022, 19:23
+# Edit Time: 2:53:18
 # Description:
 #
 # $Id: $
@@ -16,7 +16,7 @@ release:
 	@echo "<- done!"
 
 scp:
-	scp app/build/outputs/apk/release/cricket-`date +%Y%m%d`-release.apk  czo@ananas:/tank/data/czo/www/ananas.czo.wf/intranet/download/apk
+	scp app/build/outputs/apk/release/org.czo.cricket-`date +%Y%m%d`-release.apk  czo@ananas:/tank/data/czo/www/ananas.czo.wf/intranet/download/apk
 	@echo "<- done!"
 
 debug:
