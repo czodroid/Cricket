@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg5728"
+   sodipodi:docname="button-push.svg"
+   viewBox="0 0 512.00001 512"
+   version="1.1"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   width="512"
+   height="512"
+   inkscape:export-filename="/tank/data/czo/AndroidStudioProjects/Cricket/store/bitmap.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs5730">
+    <radialGradient
+       id="radialGradient5882"
+       gradientUnits="userSpaceOnUse"
+       cy="448.35999"
+       cx="-7994"
+       gradientTransform="matrix(2.2472998,-0.01336642,0.01330213,2.2365602,18428.788,-646.10214)"
+       r="140"
+       inkscape:collect="always">
+      <stop
+         id="stop11326"
+         style="stop-color:#a7adab"
+         offset="0" />
+      <stop
+         id="stop11362"
+         style="stop-color:#a6acaa"
+         offset=".00003052" />
+      <stop
+         id="stop11360"
+         style="stop-color:#a6acaa"
+         offset=".00006103" />
+      <stop
+         id="stop11358"
+         style="stop-color:#a6acaa"
+         offset=".00012207" />
+      <stop
+         id="stop11356"
+         style="stop-color:#a6acaa"
+         offset=".00024414" />
+      <stop
+         id="stop11354"
+         style="stop-color:#a6acaa"
+         offset=".00048828" />
+      <stop
+         id="stop11352"
+         style="stop-color:#a6acaa"
+         offset=".00097656" />
+      <stop
+         id="stop11350"
+         style="stop-color:#a6acaa"
+         offset=".0019531" />
+      <stop
+         id="stop11348"
+         style="stop-color:#a6acaa"
+         offset=".0039062" />
+      <stop
+         id="stop11346"
+         style="stop-color:#a6acaa"
+         offset=".0078125" />
+      <stop
+         id="stop11344"
+         style="stop-color:#a5aba9"
+         offset=".015625" />
+      <stop
+         id="stop11342"
+         style="stop-color:#a3a9a7"
+         offset=".03125" />
+      <stop
+         id="stop11340"
+         style="stop-color:#a0a6a4"
+         offset=".0625" />
+      <stop
+         id="stop11338"
+         style="stop-color:#999f9e"
+         offset=".63176" />
+      <stop
+         id="stop11336"
+         style="stop-color:#8c9191"
+         offset=".64674" />
+      <stop
+         id="stop11334"
+         style="stop-color:#727577"
+         offset=".66131" />
+      <stop
+         id="stop11328"
+         style="stop-color:#3d3e43"
+         offset="1" />
+    </radialGradient>
+    <filter
+       id="filter11468-2"
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur11470-4"
+         stdDeviation="3.9043825"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter5232"
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur5234"
+         stdDeviation="9.3680297"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter5242"
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur5244"
+         stdDeviation="2.0817844"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter5280"
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur5282"
+         stdDeviation="4.350419"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       id="filter5298"
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur5300"
+         stdDeviation="2.1252832"
+         inkscape:collect="always" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1012"
+       x="-0.00010883503"
+       width="1.0002177"
+       y="-0.00010883503"
+       height="1.0002177">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.019206375"
+         id="feGaussianBlur1014" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="0"
+     fit-margin-left="0"
+     pagecolor="#ffffff"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:zoom="1.2818332"
+     inkscape:window-x="0"
+     inkscape:window-height="836"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="194.2538"
+     inkscape:cy="234.64681"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:document-rotation="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-218.94,-216.01)">
+    <g
+       id="g62">
+      <circle
+         id="path4399"
+         style="fill:url(#radialGradient5882);stroke-width:1.51262;filter:url(#filter1012)"
+         cx="469.44858"
+         cy="463.52908"
+         r="211.76683" />
+      <circle
+         id="path4401"
+         style="fill:#caf2eb;stroke-width:1.35056;filter:url(#filter1012)"
+         cx="469.29102"
+         cy="463.53284"
+         r="189.07828" />
+      <circle
+         id="path4403"
+         style="fill:#1a1a1a;filter:url(#filter11468-2)"
+         transform="matrix(1.2894323,0,0,1.2894323,10783.295,-102.49957)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <circle
+         id="path4405"
+         style="fill:#2c2ca0;stroke-width:1.28943;filter:url(#filter1012)"
+         cx="469.35364"
+         cy="463.53644"
+         r="180.52052" />
+      <circle
+         id="path4428"
+         style="fill:#2c2ca0;filter:url(#filter5232)"
+         transform="matrix(1.0571076,0,0,1.0571076,8919.893,-10.423305)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <circle
+         id="path5236"
+         style="fill:#2c2ca0;stroke:#3737c8;stroke-width:5.3306;filter:url(#filter5242)"
+         transform="matrix(0.99698883,0,0,0.99698883,8439.2433,16.515383)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <path
+         id="path5246"
+         d="m -10900,961.49 c 24.286,90.618 -50.933,161.31 -144.64,92.11 13.889,27.378 41.908,41.56 74.709,41.56 46.484,0 84.187,-37.672 84.187,-84.156 0,-19.301 -3.329,-35.315 -14.255,-49.513 z"
+         sodipodi:nodetypes="ccssc"
+         style="opacity:0.77736;fill:#1a1a1a;filter:url(#filter5280)"
+         inkscape:connector-curvature="0"
+         transform="matrix(2.1448,0,0,2.1448,24004.271,-1692.7401)" />
+      <path
+         id="path5284"
+         d="m -10975,928.28 c -10.255,0.14507 -28.284,-0.43373 -49.742,17.351 -29.082,24.104 -25.757,63.5 -25.757,63.5 5.745,-50.091 35.168,-76.491 75.499,-80.851 z"
+         sodipodi:nodetypes="cscc"
+         style="fill:#ffeeaa;filter:url(#filter5298)"
+         inkscape:connector-curvature="0"
+         transform="matrix(2.1448,0,0,2.1448,24004.271,-1692.7401)" />
+    </g>
+  </g>
+  <metadata
+     id="metadata69">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Red button</dc:title>
+        <dc:date>2011-06-29T12:41:08</dc:date>
+        <dc:description>push me!</dc:description>
+        <dc:source>https://openclipart.org/detail/147667/red-button-by-nikla88</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>nikla88</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>button</rdf:li>
+            <rdf:li>press</rdf:li>
+            <rdf:li>push</rdf:li>
+            <rdf:li>red</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
