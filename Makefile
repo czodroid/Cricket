@@ -13,11 +13,14 @@ all: release
 
 release:
 	./gradlew assembleRelease
-	cp app/build/outputs/apk/release/app-release.apk ../cricket-release-`date +%Y%m%d`.apk
+	@echo "<- done!"
+
+scp:
+	scp app/build/outputs/apk/release/cricket-`date +%Y%m%d`-release.apk  czo@ananas:/tank/data/czo/www/ananas.czo.wf/intranet/download/apk
 	@echo "<- done!"
 
 debug:
-	./gradlew assembleDebug
+	./gradlew assembleDebug --warning-mode all
 	@echo "<- done!"
 
 clean:

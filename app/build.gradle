@@ -2,14 +2,13 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: lundi 18 avril 2022, 15:04
-// Edit Time: 1:42:01
+// Last Modified: lundi 18 avril 2022, 18:47
+// Edit Time: 1:50:05
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
 
 println("")
-int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
 def keystorePropertiesFile = rootProject.file("local.properties")
 def keystoreProperties = new Properties()
 def canSign = false
@@ -19,8 +18,10 @@ if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
+int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
+String buildDateYMD = new java.text.SimpleDateFormat("yyyyMMdd").format(new java.util.Date(System.currentTimeMillis()))
+
 android {
-    println("-> versionCode: " + minutesSinceEpoch)
     compileSdkVersion 32
     defaultConfig {
         applicationId "org.czo.cricket"
@@ -28,6 +29,12 @@ android {
         targetSdkVersion 32
         versionCode minutesSinceEpoch
         versionName "1.42"
+
+        def appIdSmall = applicationId.toString().replaceAll(/.*\./,'')
+        setProperty("archivesBaseName", "${appIdSmall}-${buildDateYMD}")
+        println("-> archivesBaseName: " + archivesBaseName)
+        println("-> versionCode: " + minutesSinceEpoch)
+        println("")
     }
 
     if (canSign) {
