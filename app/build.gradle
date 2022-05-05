@@ -2,8 +2,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: lundi 18 avril 2022, 19:24
-// Edit Time: 1:50:35
+// Last Modified: jeudi 05 mai 2022, 18:20
+// Edit Time: 1:55:52
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
@@ -22,11 +22,11 @@ int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
 String buildDateYMD = new java.text.SimpleDateFormat("yyyyMMdd").format(new java.util.Date(System.currentTimeMillis()))
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 31
     defaultConfig {
         applicationId "org.czo.cricket"
         minSdkVersion 9
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode minutesSinceEpoch
         versionName "1.42"
 
@@ -53,11 +53,14 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-             if (canSign) {
+            if (canSign) {
                 signingConfig signingConfigs.release
             }
         }
     }
+
+    //tasks.withType(JavaCompile) { options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" }
+
 }
 
 dependencies {
