@@ -2,7 +2,7 @@
 
 ## General
 
-Cricket app just play a sound!
+Cricket app only plays a sound!
 
 ## Information being collected
 
