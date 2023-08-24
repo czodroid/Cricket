@@ -22,11 +22,11 @@ int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
 String buildDateYMD = new java.text.SimpleDateFormat("yyyyMMdd").format(new java.util.Date(System.currentTimeMillis()))
 
 android {
-    compileSdkVersion 31
+    compileSdk 33
     defaultConfig {
         applicationId "org.czo.cricket"
         minSdkVersion 9
-        targetSdkVersion 31
+        targetSdkVersion 33
         versionCode minutesSinceEpoch
         versionName "1.42"
 

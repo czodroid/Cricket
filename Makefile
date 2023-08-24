@@ -2,12 +2,11 @@
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: Jan 2012
-# Last Modified: lundi 18 avril 2022, 19:23
-# Edit Time: 2:53:18
+# Last Modified: Thursday 24 August 2023, 18:15
 # Description:
+#               Makefile for this project
 #
-# $Id: $
-#
+# Copyright: (C) 2012-2023 Olivier Sirol <czo@free.fr>
 
 all: release
 
@@ -16,7 +15,7 @@ release:
 	@echo "<- done!"
 
 scp:
-	scp app/build/outputs/apk/release/org.czo.cricket-`date +%Y%m%d`-release.apk  czo@ananas:/tank/data/czo/www/ananas.czo.wf/intranet/download/apk
+	scp app/build/outputs/apk/release/org.czo.cricket-`date +%Y%m%d`-release.apk czo@dalmore:/tank/data/czo/www/ananas.czo.wf/intranet/download/sa/software/apk
 	@echo "<- done!"
 
 debug:

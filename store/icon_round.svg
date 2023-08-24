@@ -4,10 +4,10 @@
    sodipodi:docname="icon_round.svg"
    viewBox="0 0 512.00001 512"
    version="1.1"
-   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    width="512"
    height="512"
-   inkscape:export-filename="/Users/czo/AndroidStudioProjects/Cricket/store/icon_round.png"
+   inkscape:export-filename="icon_round.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -19,83 +19,6 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs5730">
-    <radialGradient
-       id="radialGradient5882"
-       gradientUnits="userSpaceOnUse"
-       cy="448.35999"
-       cx="-7994"
-       gradientTransform="matrix(2.4688627,-0.01468422,0.0146136,2.4570642,20204.904,-748.80961)"
-       r="140"
-       inkscape:collect="always">
-      <stop
-         id="stop11326"
-         style="stop-color:#a7adab"
-         offset="0" />
-      <stop
-         id="stop11362"
-         style="stop-color:#a6acaa"
-         offset=".00003052" />
-      <stop
-         id="stop11360"
-         style="stop-color:#a6acaa"
-         offset=".00006103" />
-      <stop
-         id="stop11358"
-         style="stop-color:#a6acaa"
-         offset=".00012207" />
-      <stop
-         id="stop11356"
-         style="stop-color:#a6acaa"
-         offset=".00024414" />
-      <stop
-         id="stop11354"
-         style="stop-color:#a6acaa"
-         offset=".00048828" />
-      <stop
-         id="stop11352"
-         style="stop-color:#a6acaa"
-         offset=".00097656" />
-      <stop
-         id="stop11350"
-         style="stop-color:#a6acaa"
-         offset=".0019531" />
-      <stop
-         id="stop11348"
-         style="stop-color:#a6acaa"
-         offset=".0039062" />
-      <stop
-         id="stop11346"
-         style="stop-color:#a6acaa"
-         offset=".0078125" />
-      <stop
-         id="stop11344"
-         style="stop-color:#a5aba9"
-         offset=".015625" />
-      <stop
-         id="stop11342"
-         style="stop-color:#a3a9a7"
-         offset=".03125" />
-      <stop
-         id="stop11340"
-         style="stop-color:#a0a6a4"
-         offset=".0625" />
-      <stop
-         id="stop11338"
-         style="stop-color:#999f9e"
-         offset=".63176" />
-      <stop
-         id="stop11336"
-         style="stop-color:#8c9191"
-         offset=".64674" />
-      <stop
-         id="stop11334"
-         style="stop-color:#727577"
-         offset=".66131" />
-      <stop
-         id="stop11328"
-         style="stop-color:#3d3e43"
-         offset="1" />
-    </radialGradient>
     <filter
        id="filter11468-2"
        color-interpolation-filters="sRGB"
@@ -166,84 +89,83 @@
      id="base"
      bordercolor="#666666"
      inkscape:pageshadow="2"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      fit-margin-left="0"
      pagecolor="#ffffff"
      fit-margin-top="0"
-     inkscape:window-maximized="0"
-     inkscape:zoom="0.86590035"
+     inkscape:window-maximized="1"
+     inkscape:zoom="1.1805437"
      inkscape:window-x="0"
-     inkscape:window-height="847"
+     inkscape:window-height="831"
      showgrid="false"
      borderopacity="1.0"
      inkscape:current-layer="layer1"
-     inkscape:cx="360.89603"
-     inkscape:cy="206.14381"
+     inkscape:cx="117.31883"
+     inkscape:cy="257.08493"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1440"
      inkscape:pageopacity="0.0"
      inkscape:document-units="px"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <g
      id="layer1"
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      transform="translate(-218.94,-216.01)">
-    <circle
-       id="path4399"
-       style="fill:url(#radialGradient5882);stroke-width:1.66175"
-       cx="474.94"
-       cy="470.22095"
-       r="232.64507" />
-    <circle
-       id="path4401"
-       style="fill:#caf2eb;stroke-width:1.48371"
-       cx="474.76691"
-       cy="470.22507"
-       r="207.71964" />
-    <circle
-       id="path4403"
-       style="fill:#1a1a1a;filter:url(#filter11468-2)"
-       transform="matrix(1.4165583,0,0,1.4165583,11805.636,-151.61288)"
-       cx="-7994"
-       cy="448.36218"
-       r="140" />
-    <circle
-       id="path4405"
-       style="fill:#3755ed;fill-opacity:1;stroke-width:1.41656"
-       cx="474.83569"
-       cy="470.22903"
-       r="198.31816" />
-    <circle
-       id="path4428"
-       style="fill:#4058ec;fill-opacity:1;filter:url(#filter5232)"
-       transform="matrix(1.1613286,0,0,1.1613286,9758.5197,-50.458749)"
-       cx="-7994"
-       cy="448.36218"
-       r="140" />
-    <circle
-       id="path5236"
-       style="fill:none;stroke:#4656ee;stroke-width:5.3306;stroke-opacity:1;filter:url(#filter5242)"
-       transform="matrix(1.0952827,0,0,1.0952827,9230.4824,-20.864157)"
-       cx="-7994"
-       cy="448.36218"
-       r="140" />
-    <path
-       id="path5246"
-       d="m -10900,961.49 c 24.286,90.618 -50.933,161.31 -144.64,92.11 13.889,27.378 41.908,41.56 74.709,41.56 46.484,0 84.187,-37.672 84.187,-84.156 0,-19.301 -3.329,-35.315 -14.255,-49.513 z"
-       sodipodi:nodetypes="ccssc"
-       style="opacity:0.77736;fill:#1a1a1a;filter:url(#filter5280)"
-       inkscape:connector-curvature="0"
-       transform="matrix(2.3562573,0,0,2.3562573,26330.078,-1898.6363)" />
-    <path
-       id="path5284"
-       d="m -10975,928.28 c -10.255,0.14507 -28.284,-0.43373 -49.742,17.351 -29.082,24.104 -25.757,63.5 -25.757,63.5 5.745,-50.091 35.168,-76.491 75.499,-80.851 z"
-       sodipodi:nodetypes="cscc"
-       style="fill:#ffeeaa;filter:url(#filter5298)"
-       inkscape:connector-curvature="0"
-       transform="matrix(2.3562573,0,0,2.3562573,26330.078,-1898.6363)" />
+    <g
+       id="g322">
+      <circle
+         id="path4401"
+         style="fill:#bcbfbe;fill-opacity:1;stroke-width:1.48371"
+         cx="474.76691"
+         cy="470.22507"
+         r="207.71964" />
+      <circle
+         id="path4403"
+         style="fill:#1a1a1a;filter:url(#filter11468-2)"
+         transform="matrix(1.4165583,0,0,1.4165583,11805.636,-151.61288)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <circle
+         id="path4405"
+         style="fill:#3755ed;fill-opacity:1;stroke-width:1.41656"
+         cx="474.83569"
+         cy="470.22903"
+         r="198.31816" />
+      <circle
+         id="path4428"
+         style="fill:#4058ec;fill-opacity:1;filter:url(#filter5232)"
+         transform="matrix(1.1613286,0,0,1.1613286,9758.5197,-50.458749)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <circle
+         id="path5236"
+         style="fill:none;stroke:#4656ee;stroke-width:5.3306;stroke-opacity:1;filter:url(#filter5242)"
+         transform="matrix(1.0952827,0,0,1.0952827,9230.4824,-20.864157)"
+         cx="-7994"
+         cy="448.36218"
+         r="140" />
+      <path
+         id="path5246"
+         d="m -10900,961.49 c 24.286,90.618 -50.933,161.31 -144.64,92.11 13.889,27.378 41.908,41.56 74.709,41.56 46.484,0 84.187,-37.672 84.187,-84.156 0,-19.301 -3.329,-35.315 -14.255,-49.513 z"
+         sodipodi:nodetypes="ccssc"
+         style="opacity:0.77736;fill:#1a1a1a;filter:url(#filter5280)"
+         inkscape:connector-curvature="0"
+         transform="matrix(2.3562573,0,0,2.3562573,26330.078,-1898.6363)" />
+      <path
+         id="path5284"
+         d="m -10975,928.28 c -10.255,0.14507 -28.284,-0.43373 -49.742,17.351 -29.082,24.104 -25.757,63.5 -25.757,63.5 5.745,-50.091 35.168,-76.491 75.499,-80.851 z"
+         sodipodi:nodetypes="cscc"
+         style="fill:#ffeeaa;filter:url(#filter5298)"
+         inkscape:connector-curvature="0"
+         transform="matrix(2.3562573,0,0,2.3562573,26330.078,-1898.6363)" />
+    </g>
   </g>
   <metadata
      id="metadata69">
