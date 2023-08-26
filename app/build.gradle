@@ -22,6 +22,7 @@ int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
 String buildDateYMD = new java.text.SimpleDateFormat("yyyyMMdd").format(new java.util.Date(System.currentTimeMillis()))
 
 android {
+    namespace 'org.czo.cricket'
     compileSdk 33
     defaultConfig {
         applicationId "org.czo.cricket"
