@@ -2,7 +2,7 @@
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: Jan 2012
-# Last Modified: Thursday 24 August 2023, 18:15
+# Last Modified: Saturday 26 August 2023, 14:09
 # Description:
 #               Makefile for this project
 #
@@ -14,7 +14,7 @@ release:
 	./gradlew assembleRelease
 	@echo "<- done!"
 
-scp:
+scp: release
 	scp app/build/outputs/apk/release/org.czo.cricket-`date +%Y%m%d`-release.apk czo@dalmore:/tank/data/czo/www/ananas.czo.wf/intranet/download/sa/software/apk
 	@echo "<- done!"
 
