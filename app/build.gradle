@@ -2,8 +2,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: jeudi 05 mai 2022, 18:20
-// Edit Time: 1:55:52
+// Last Modified: Tuesday 13 August 2024, 16:03
+// Edit Time: 1:56:14
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
@@ -21,19 +21,23 @@ if (keystorePropertiesFile.exists()) {
 int minutesSinceEpoch = System.currentTimeMillis() / 1000 / 60
 String buildDateYMD = new java.text.SimpleDateFormat("yyyyMMdd").format(new java.util.Date(System.currentTimeMillis()))
 
+def gitVersionName = "git -C ${rootDir} describe --tags --long".execute().text.trim()
+
 android {
     namespace 'org.czo.cricket'
-    compileSdk 33
+    compileSdk 34
     defaultConfig {
         applicationId "org.czo.cricket"
         minSdkVersion 9
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode minutesSinceEpoch
-        versionName "1.42"
 
         setProperty("archivesBaseName", "${applicationId}-${buildDateYMD}")
         println("-> archivesBaseName: " + archivesBaseName)
         println("-> versionCode: " + minutesSinceEpoch)
+        println("-> gitVersionName:    " + gitVersionName)
+        setProperty("versionName", "${gitVersionName}".replaceAll(/-.*/,''))
+        println("-> versionName:       " + versionName)
         println("")
     }
 
