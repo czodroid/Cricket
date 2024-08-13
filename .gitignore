@@ -1,5 +1,4 @@
-*.iml
-*.sw?
+.*.sw?
 .DS_Store
 /local.properties
 /.gradle/
