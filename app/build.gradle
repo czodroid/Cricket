@@ -2,8 +2,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: Tuesday 13 August 2024, 16:03
-// Edit Time: 1:56:14
+// Last Modified: Tuesday 13 August 2024, 19:35
+// Edit Time: 1:56:33
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
@@ -14,7 +14,7 @@ def keystoreProperties = new Properties()
 def canSign = false
 if (keystorePropertiesFile.exists()) {
     canSign = true
-    println("-> release will be signed")
+    println("-> release will be signed.")
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
@@ -32,12 +32,12 @@ android {
         targetSdkVersion 34
         versionCode minutesSinceEpoch
 
+        println("-> gitVersionName:   " + gitVersionName)
+        setProperty("versionName", "${gitVersionName}".replaceAll(/-.*/,''))
+        println("-> versionName:      " + versionName)
+        println("-> versionCode:      " + minutesSinceEpoch)
         setProperty("archivesBaseName", "${applicationId}-${buildDateYMD}")
         println("-> archivesBaseName: " + archivesBaseName)
-        println("-> versionCode: " + minutesSinceEpoch)
-        println("-> gitVersionName:    " + gitVersionName)
-        setProperty("versionName", "${gitVersionName}".replaceAll(/-.*/,''))
-        println("-> versionName:       " + versionName)
         println("")
     }
 
