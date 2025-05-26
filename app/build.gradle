@@ -2,14 +2,14 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: avril 2012
-// Last Modified: Tuesday 13 August 2024, 19:35
-// Edit Time: 1:56:33
+// Last Modified: Monday 12 May 2025, 18:29
+// Edit Time: 1:57:56
 // Description: app build.gradle
 
 apply plugin: 'com.android.application'
 
 println("")
-def keystorePropertiesFile = rootProject.file("local.properties")
+def keystorePropertiesFile = rootProject.file("keystore.properties")
 def keystoreProperties = new Properties()
 def canSign = false
 if (keystorePropertiesFile.exists()) {
@@ -25,11 +25,11 @@ def gitVersionName = "git -C ${rootDir} describe --tags --long".execute().text.t
 
 android {
     namespace 'org.czo.cricket'
-    compileSdk 34
+    compileSdk 35
     defaultConfig {
         applicationId "org.czo.cricket"
         minSdkVersion 9
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode minutesSinceEpoch
 
         println("-> gitVersionName:   " + gitVersionName)
@@ -44,10 +44,10 @@ android {
     if (canSign) {
         signingConfigs {
             release {
-                storeFile file(keystoreProperties['key.store'])
-                storePassword keystoreProperties['key.store.password']
-                keyAlias keystoreProperties['key.alias']
-                keyPassword keystoreProperties['key.alias.password']
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
                 v1SigningEnabled true
                 v2SigningEnabled true
             }
